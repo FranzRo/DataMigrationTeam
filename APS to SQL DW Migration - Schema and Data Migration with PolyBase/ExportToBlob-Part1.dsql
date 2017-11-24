@@ -16,7 +16,8 @@ license to these patents, trademarks, copyrights, or other intellectual property
 History
 Date		Name			Description			
 03/27/2017	Arshad Ali		Created
-11/24/2017  Franz Robeller  fixed errors, made it more robust, made it work for international and improved performance
+11/24/2017  Franz Robeller  fixed errors, made it more robust, 
+                            made it work for international and improved performance
 **************************************************************************************/
 USE master;
 IF EXISTS(SELECT * FROM sys.databases WHERE name = N'APSMigration')
